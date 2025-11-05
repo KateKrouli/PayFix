@@ -194,19 +194,29 @@ h3 {
             width: 396px;
             border: 2px solid #A40000;
 
-             @media (max-width: 447px) { 
+              
+            &:hover {
+              background: #272627;
+              border: 2px solid #272627;
+              color: #fff;
+            }
+                
+            @media (max-width: 447px) { 
                 width: 100%;
                 padding: 20px 16px;
-             }
+            }
 
             &--1 {
                 background: #A40000;
                 color: #fff;
+            
             }
 
             &--2 {
                 color: #A40000;
                 background: #fff;
+
+      
             }
         }
     }

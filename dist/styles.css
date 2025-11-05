@@ -197,6 +197,11 @@ h3 {
   width: 396px;
   border: 2px solid #A40000;
 }
+.main__buttons .btn:hover {
+  background: #272627;
+  border: 2px solid #272627;
+  color: #fff;
+}
 @media (max-width: 447px) {
   .main__buttons .btn {
     width: 100%;
